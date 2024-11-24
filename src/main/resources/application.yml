@@ -1,0 +1,22 @@
+# src/main/resources/application.yml
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://ep-fancy-star-76955075.us-west-2.aws.neon.tech/neondb?user=mullamdz0501&password=AQU6FnmfPTj9&sslmode=require
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+#    hibernate:
+#      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+    open-in-view: false
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+server:
+  port: 8081
