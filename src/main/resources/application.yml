@@ -2,7 +2,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://ep-fancy-star-76955075.us-west-2.aws.neon.tech/neondb?user=mullamdz0501&password=AQU6FnmfPTj9&sslmode=require
+    url: URL
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 #    hibernate:
